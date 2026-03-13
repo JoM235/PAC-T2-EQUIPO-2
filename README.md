@@ -13,7 +13,7 @@ Brandon Yahir Flores Garcia — Desarrollo del Módulo de Análisis y definició
 
 Juan Carlos Fernández Flores — Implementación del Módulo JSONGen para la persistencia de datos.
 
-
+------------------------------------------------------------------------------------------------------------------
 
 ##Requisitos
 Sistema Operativo: Distribuciones basadas en Debian/Ubuntu.
@@ -25,7 +25,7 @@ Librerías de Desarrollo:
 libpcap-dev: Para la captura y filtrado de paquetes a nivel de enlace.
 
 nlohmann-json3-dev: Para la serialización de objetos a JSON.
-
+-----------------------------------------------------------------------------------------------------------------
 Compilación
 Para compilar el proyecto incluyendo las dependencias de hilos y captura de paquetes, ejecute:
 
@@ -45,7 +45,7 @@ Interfaz: Nombre de la interfaz física o lógica (ej. ens33, eth0).
 Intervalo identidad: Frecuencia de muestreo en milisegundos para verificar cambios en la configuración de red.
 
 Archivo JSON: Ruta del archivo de salida para el reporte final.
-
+------------------------------------------------------------------------------------------------------------------------------
 Enfoque técnico
 Arquitectura Multihilo: El sistema utiliza tres hilos de ejecución independientes coordinados mediante un std::atomic<bool> para el control de terminación y std::mutex para garantizar la integridad de la lista global de eventos.
 
