@@ -1,4 +1,4 @@
-// Integrante 3: Brandon Yahir Flores Garcia
+// Integrante 3: Brandon Yahir Flores Garcia. 
 #ifndef ANALISIS_H
 #define ANALISIS_H
 
