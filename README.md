@@ -89,5 +89,4 @@ El reporte final organiza los eventos cronológicamente con metadatos técnicos 
         "header_bytes": "00 0c 29 f6 ea fa 00 50 56 f3 ee ac 08 00 45 00 00 98 98 68 00 00 80 11",
         "src_ip": "192.168.199.2",
         "timestamp": "2026-03-12T18:41:44Z"
-    },
-    {
+    }
